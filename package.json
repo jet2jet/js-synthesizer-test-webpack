@@ -1,0 +1,19 @@
+{
+  "name": "js-synthesizer-test-webpack",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.17.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "http-server -p 9091"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "js-synthesizer": "^1.10.0"
+  }
+}
